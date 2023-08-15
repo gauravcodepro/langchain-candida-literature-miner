@@ -1,5 +1,5 @@
 # candida_Literature_Miner
-This prepares the candida literature for the machine learning. Although prepared for candida, it can be used for any specific term that you want to search in pubmed. 
+I just coded this function and this prepares the candida literature for the machine learning. Although prepared for candida, it can be used for any specific term that you want to search in pubmed. 
 
 ```
 candidaLiteratureMiner(term = "candida", fetch_count = 10)
@@ -25,3 +25,9 @@ candidaLiteratureMiner(term = "candida", fetch_count = 10)
   "Vulvovaginal candidiasis (VVC) is an inflammatory disease primarily infected by Candida albicans. The condition has good short-term treatment effects, high recurrence, and seriously affects the quality of life of women. Metabolomics has been applied to research a variety of inflammatory diseases. In the present study, the vaginal metabolic profiles of VVC patients and healthy populations (CTL) were explored by a non-targeted metabolomics approach. In total, 211 differential metabolites were identified, with the VVC group having 128 over-expressed and 83 under-expressed metabolites compared with healthy individuals. Functional analysis showed that these metabolites were mainly involved in amino acid metabolism and lipid metabolism. In addition, network software analysis indicated that the differential metabolites were associated with MAPK signaling and NF-κB signaling. Further molecular docking suggested that linoleic acid can bind to the ACSL1 protein, which has been shown to be associated with multiple inflammatory diseases and is an upstream regulator of the MAPK and NF-κB signaling pathways that mediate inflammation. Therefore, our preliminary analysis results suggest that VVC has a unique metabolic profile. Linoleic acid, a significantly elevated unsaturated fatty acid in the VVC group, may promote VVC development through the ACSL1/MAPK and ACSL1/NF-κB signaling pathways. This study's findings contribute to further exploring the mechanism of VVC infection and providing new perspectives for the treatment of Candida albicans vaginal infection.")]
 ```
 
+Gaurav Sablok \
+Frontiers: https://loop.frontiersin.org/people/33293/overview \
+ORCID: https://orcid.org/0000-0002-4157-9405 \
+WOS: https://www.webofscience.com/wos/author/record/C-5940-2014 \
+Github:https://github.com/sablokgaurav \
+Linkedin: https://www.linkedin.com/in/sablokgaurav/
