@@ -1,4 +1,4 @@
-# candida_Literature_Miner
+# candida_iterature_miner
 I just coded this function and this prepares the candida literature for the machine learning. Although prepared for candida, it can be used for any specific term that you want to search in pubmed. fetch count is the number of the recent papers that you want to fetch from the pubmed for that particular species or topic.
 
 ```
