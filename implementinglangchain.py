@@ -9,5 +9,8 @@ split_my_text = CharacterTextSplitter(
 separator="\n", chunk_size=500, chunk_overlap=100, length_function=len)
 splitted_chunks = text_splitter.split_text(split_my_text)
 embeddings = SentenceTransformerEmbeddings(model_name="all-MiniLM-L6-v2")
-knowledge_base = Qdrant.from_texts(splitted_chunks,embeddings,
-location=":memory:",collection_name="explain_chunks")
+model_base_explain = Qdrant.from_texts(splitted_chunks,embeddings, location=":memory:",collection_name="explain_chunks")
+
+
+# you can take the literatureMiner.py and clean the tags and prepare the literature \
+                   #  if you want to put this on the other text but it will need modifications. 
