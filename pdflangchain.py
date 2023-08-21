@@ -14,7 +14,7 @@ class Textclassification:
         self.pdf = input("path_to_the_pdf")
         self.pdf.text = []
         self.pdf.string = []
-        with open(pdf,"rb") as fname:
+        with open(pdf,"r") as fname:
             if len(self.pdf) == 1:
                 self.pdf.text.append(pdftotext.PDF(self.pdf))
                 self.pdf.string.append("\n\n".join(pdf))
@@ -55,7 +55,7 @@ def search_pattern(self,filename,junk_words):
             filtered_text.append(i)
     self.most_common = self.most_common.append(Counter(self.filtered.txt).most_common())
     for i in self.pdf.text:
-        with open(self.filename, "rb+") as fname:
+        with open(self.filename, "w") as fname:
             fname.write(self.pdf.text.count(i))
             fname.write("\nCounter(self.pdf.text).most_common()")
             fname.close()
@@ -70,10 +70,10 @@ def searchWeb(self,filekey, filesummary):
         filekey (_type_): _description_
     """
     for k in self.most_common:
-        with open(self.filekey, "rb") as fname:
+        with open(self.filekey, "w") as fname:
             fname.write(wikipedia.search(k))
             fname.close()
-        with open(self.filesummary, "rb") as file:
+        with open(self.filesummary, "w") as file:
             file.write(wikipedia.summary(k))
             file.close()
 
@@ -109,7 +109,7 @@ model_encoding = ['all-mpnet-base-v2', \
                   'distiluse-base-multilingual-cased-v1', \
                   'distiluse-base-multilingual-cased-v2 ']
 text_classify = []
-        with open(self.filekey, "rb") as fname:
+        with open(self.filekey, "r") as fname:
          for line in fname.readlines():
            if not line == "\n":
             text_classify.append(r're.split("\n"),line)
@@ -160,7 +160,7 @@ def abstractMiner(self, abstract_file):
 
 def summarize(self, summary_file, length):
     """
-    this_function_uses_BART_and_Biomedical_database
+    this_function_uses_BERT_and_Biomedical_database
     combined_to_summarize_the_text
     """
     abstract_summarize = pipeline("summarization", model = "facebook/bart-large-cnn")
