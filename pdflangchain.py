@@ -1,3 +1,7 @@
+#! usr/bin/env python3
+# Author Gaurav 
+# Universitat Potsdam
+# Date 2024-6-20
 # a_basemodel_for_generating_an_autobot_for_your_classification
 import wikipedia
 import pdftotext
