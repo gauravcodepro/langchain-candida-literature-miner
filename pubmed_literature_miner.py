@@ -1,3 +1,7 @@
+#! usr/bin/env python3
+# Author Gaurav 
+# Universitat Potsdam
+
 from urllib.request import urlopen
 from bs4 import BeautifulSoup
 def candidaLiteratureMiner(term = None, fetch_count = None):
