@@ -1,3 +1,8 @@
+#! usr/bin/env python3
+# Author Gaurav 
+# Universitat Potsdam
+# Date 2024-6-20
+
 from langchain.text_splitter import CharacterTextSplitter
 from langchain.chains.question_answering import load_qa_chain
 from langchain.llms import LlamaCpp
