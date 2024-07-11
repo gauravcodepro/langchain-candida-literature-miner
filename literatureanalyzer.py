@@ -1,3 +1,6 @@
+#! usr/bin/env python3
+# Author Gaurav 
+# Date 2024-6-20
 # generating and tags words class for the preparation
 # using the beautifulSoup
 import wikipedia
