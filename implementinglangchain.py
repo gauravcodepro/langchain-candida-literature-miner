@@ -1,6 +1,5 @@
 #! usr/bin/env python3
 # Author Gaurav 
-# Universitat Potsdam
 # Date 2024-6-20
 
 from langchain.text_splitter import CharacterTextSplitter
