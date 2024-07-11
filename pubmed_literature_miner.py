@@ -1,6 +1,6 @@
 #! usr/bin/env python3
 # Author Gaurav 
-# Universitat Potsdam
+# Date 2024-6-20
 
 from urllib.request import urlopen
 from bs4 import BeautifulSoup
